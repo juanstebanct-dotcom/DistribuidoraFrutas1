@@ -56,6 +56,7 @@
         <input type="text" name="apellido" value="<%= u.getApellido() %>" required>
         <input type="email" name="correo" value="<%= u.getCorreo() %>" required>
         <input type="text" name="telefono" value="<%= u.getTelefono() %>" required>
+        <input type="password" name="password" value="<%= u.getPassword() %>" required>
 
         <button type="submit">Actualizar</button>
     </form>
